@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     public String getCurrentTime() {
         long time = System.currentTimeMillis();
 
-        SimpleDateFormat dayTime = new SimpleDateFormat("yyyy/mm/dd hh:mm:ss");
+        SimpleDateFormat dayTime = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
 
         String str = dayTime.format(new Date(time));
 
